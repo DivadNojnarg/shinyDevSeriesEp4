@@ -1,442 +1,379 @@
-  <!doctype html>
-  <html lang="en" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CLEAN MARKUP = GOOD KARMA.
-    Hi source code lover,
-
-    you're a curious person and a fast learner ;)
-    Let's make something beautiful together. Contribute on Github:
-    https://github.com/webslides/webslides
-
-    Thanks,
-    @jlantunez.
-  -->
-
-  <!-- SEO -->
-  <title>shinydevseriesEp4</title>
-  <meta name="description" content="shiny Dev Series Episode 4 9/08/2019">
-
-  <!-- URL CANONICAL -->
-  <!-- <link rel="canonical" href="http://your-url.com/"> -->
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
-
-  <!-- CSS WebSlides -->
-  <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
-
-  <!-- Optional - CSS SVG Icons (Font Awesome) -->
-  <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
-  
-  <!-- Optional - Syntax highlight -->
-  <link rel="stylesheet" type='text/css' media='all' href="static/css/monokai.css">
-  
-  
-  <!-- Optional - phone wrapper -->
-  <link rel="stylesheet" type="text/css" media='all' href="static/css/devices.min.css">
-
-  <!-- SOCIAL CARDS (ADD YOUR INFO) -->
-
-
-  <!-- FAVICONS -->
-  <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
-  <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
-  <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
-  <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
-  <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
-  <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
-  <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
-
-  <!-- Android -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="theme-color" content="#333333">
-
-  </head>
-  <body>
-    <header role="banner" style="visibility: hidden;">
-      <nav role="navigation">
-        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
-        <ul>
-          <li class="github">
-            <a rel="external" href="https://github.com/DivadNojnarg" title="Github">
-              <svg class="fa-github">
-                <use xlink:href="#fa-github"></use>
-              </svg>
-              <em>WebSlides</em>
-            </a>
-          </li>
-          <li class="twitter">
-            <a rel="external" href="https://twitter.com/divadnojnarg" title="Twitter">
-              <svg class="fa-twitter">
-                <use xlink:href="#fa-twitter"></use>
-              </svg>
-              <em>@WebSlides</em>
-            </a>
-          </li>
-          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
-        </ul>
-      </nav>
-    </header>
-
-    <main role="main">
-      <article id="webslides" class="horizontal">
-        <!-- Quick Guide
-        - Each parent <section> in the <article id="webslides"> element is an individual slide.
-        - Vertical sliding = <article id="webslides" class="vertical">
-        - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
-      -->
-      <section>
-        <span class="background" style="background-image:url('static/images/undraw_report_mx0a.svg'); opacity: 0.1; background-size: 100% 75%;"></span>
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap aligncenter">
-          <h1><strong>Production-ready UIs for Shiny</strong></h1><br>
-            <p class="text-intro">Dr. David Granjon, Novartis</p>
-            <p class="text-intro">Scientific Computing and Consulting</p>
-          </div>
-          <!-- .end .wrap -->
-        </section>
-        
-        
-        
-        <section>
-          <!--.wrap = container (width: 90%) -->
-          <div class="wrap">
-            <h2 class="aligncenter">About Me</h2>
-            <div class="grid vertical-align ms">
-              <div class="column">
-                <ul class="flexblock activity">
-                <li>
-                  <a href="#">
-                    <div>
-                      <p class="year">
-                        2011-2013
-                      </p>
-                      <p class="title">
-                        Master’s degree<br>
-                        Université Claude Bernard Lyon
-                      </p>
-                      <p class="summary">
-                        Mathematics and Computer Sciences
-                      </p>
-                    </div>
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CLEAN MARKUP = GOOD KARMA.
+         Hi source code lover,
+         
+         you're a curious person and a fast learner ;)
+         Let's make something beautiful together. Contribute on Github:
+         https://github.com/webslides/webslides
+         
+         Thanks,
+         @jlantunez.
+         -->
+      <!-- SEO -->
+      <title>shinydevseriesEp4</title>
+      <meta name="description" content="shiny Dev Series Episode 4 9/08/2019">
+      <!-- URL CANONICAL -->
+      <!-- <link rel="canonical" href="http://your-url.com/"> -->
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+      <!-- CSS WebSlides -->
+      <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+      <!-- Optional - CSS SVG Icons (Font Awesome) -->
+      <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+      <!-- Optional - Syntax highlight -->
+      <link rel="stylesheet" type='text/css' media='all' href="static/css/monokai.css">
+      <!-- Optional - phone wrapper -->
+      <link rel="stylesheet" type="text/css" media='all' href="static/css/devices.min.css">
+      <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+      <!-- FAVICONS -->
+      <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+      <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+      <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+      <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+      <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+      <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+      <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+      <!-- Android -->
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="theme-color" content="#333333">
+   </head>
+   <body>
+      <header role="banner" style="visibility: hidden;">
+         <nav role="navigation">
+            <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
+            <ul>
+               <li class="github">
+                  <a rel="external" href="https://github.com/DivadNojnarg" title="Github">
+                     <svg class="fa-github">
+                        <use xlink:href="#fa-github"></use>
+                     </svg>
+                     <em>WebSlides</em>
                   </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <p class="year">
-                      2013-2016
-                    </p>
-                    <p class="title">
-                      PhD in Life Sciences<br>
-                      Université Pierre et Marie Curie and Université de Lausanne
-                    </p>
-                    <p class="summary">
-                      Thesis Title: «Modeling of Calcium and Phosphate Homeostasis in the Rat and its perturbations»
-                    </p>
+               </li>
+               <li class="twitter">
+                  <a rel="external" href="https://twitter.com/divadnojnarg" title="Twitter">
+                     <svg class="fa-twitter">
+                        <use xlink:href="#fa-twitter"></use>
+                     </svg>
+                     <em>@WebSlides</em>
                   </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <p class="year">
-                      2016-2019
-                    </p>
-                    <p class="title">
-                      PostDoc Researcher<br>
-                      Université de Lausanne and University of Zurich 
-                    </p>
-                    <p class="summary">
-                      Develop web applications, package HTML templates into reusable R APIs, virtual machines management, design relevant educational content.
-                    </p>
-                  </a>
-                </li>
-              </ul>
-                </div>
-                <!-- .end .column -->
-                <div class="column">
-                  <img class="alignright size-50" src="static/images/graduate-2.svg" alt="Graduate">
-                </div>
-                <!-- .end .column -->
-              </div>
-            </div>
-          </section>
-
-
-          <section>
-            <div class="wrap aligncenter">
-              <div class="grid vertical-align">
-                <div class="column">
-                  <figure><img class="size-50 zoomIn" src="static/images/undraw_dashboard_nklg.svg" alt="Dashboard"></figure>
-                  <figure><img class="size-40 zoomIn" src="static/images/cardio-renal.svg" alt="CardioRenal"></figure>
-                </div>
-                <div class="column">
-                  <h2>My current position</h2>
-                  <h4>Principal Scientific Consultant at Novartis</h4>
-                  <ul class="flexblock reasons">
-                    <li>
-                      <h2>Scientific Computing and Consulting group</h2>
-                      <p>Develop web applications, package HTML templates into reusable R APIs, virtual machines management, design relevant educational content.</p>
-                      </li>
-                      <li>
-                        This is secret ;)
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- end .grid-->
-              </div>
-              <!-- .end .wrap -->
+               </li>
+               <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+            </ul>
+         </nav>
+      </header>
+      <main role="main">
+         <article id="webslides" class="horizontal">
+            <!-- Quick Guide
+               - Each parent <section> in the <article id="webslides"> element is an individual slide.
+               - Vertical sliding = <article id="webslides" class="vertical">
+               - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+               -->
+            <section>
+               <span class="background" style="background-image:url('static/images/undraw_report_mx0a.svg'); opacity: 0.1; background-size: 100% 75%;"></span>
+               <!--.wrap = container (width: 90%) -->
+               <div class="wrap aligncenter">
+                  <h1><strong>Production-ready UIs for Shiny</strong></h1>
+                  <br>
+                  <p class="text-intro">Dr. David Granjon, Novartis</p>
+                  <p class="text-intro">Scientific Computing and Consulting</p>
+               </div>
+               <!-- .end .wrap -->
             </section>
-          
-          
-          
-          <section>
-            <span class="background" style="background-image:url('static/images/nifty_template_ui.png'); opacity: 0.8; background-size: 100% 100%;"></span>
-            <div class="wrap aligncenter">
-              <h1><strong>Dashboard examples</strong></h1>
-            </div>
-            <!-- .end .wrap -->
-          </section>
-          
-          
-          
-          <section>
-            <span class="background" style="background-image:url('static/images/undraw_questions_75e0.svg'); opacity: 0.1; background-size: 100% 75%;"></span>
-            <div class="wrap aligncenter">
-              <h1><strong>How to bridge the gap?</strong></h1>
-            </div>
-            <!-- .end .wrap -->
-          </section>
-
-
-
-
-          <section>
-            <!--.wrap = container (width: 90%) -->
-            <div class="wrap aligncenter">
-              <h2>About <strong>RinteRface (https://rinterface.com)</strong></h2>
-              <br>
-              <div class="wrap aligncenter">
-                <p>RinteRface, a comprehensive set of UI APIs</p>
-                <div class="content-center">
-                  <img src="static/images/rinterfaceMosaic.svg" alt="rinterfaceHex">
-                </div>
-              </div>
-              <!-- .end .content-left -->
-            </div>
-            <!-- .end .wrap -->
-          </section>
-          
-          
-          
-          <section> 
-            <div class="wrap aligncenter">
-              <h2><strong>shinydashboardPlus</strong>
-                    <img alt="shinydashboardPlus" src="static/images/shinydashboardPlus.svg" width="60px" height="60px">
-              </h2>
-              
-              <div class="marvel-device macbook">
-    <div class="top-bar"></div>
-    <div class="camera"></div>
-    <div class="screen">
-        <!-- Content goes here -->
-        <iframe width="100%" src="https://dgranjon.shinyapps.io/shinydashboardPlusDemo/" allowfullscreen="" frameborder="0" height="600px"></iframe>
-    </div>
-    <div class="bottom-bar"></div>
-</div>
-     </div>       
-          </section>
-          
-          
-          
-          <section> 
-            <div class="wrap aligncenter">
-              <h2><strong>bs4Dash</strong>
-                    <img alt="bs4Dash" src="static/images/bs4Dash.svg" width="60px" height="60px">
-              </h2>
-              
-              <div class="marvel-device macbook">
-    <div class="top-bar"></div>
-    <div class="camera"></div>
-    <div class="screen">
-        <!-- Content goes here -->
-        <iframe width="100%" src="https://dgranjon.shinyapps.io/bs4DashDemo/" allowfullscreen="" frameborder="0" height="600px"></iframe>
-    </div>
-    <div class="bottom-bar"></div>
-</div>
-     </div>       
-          </section>
-          
-
-              
-          <section>
-            
-            <div class="wrap aligncenter">
-              <h2><strong>Virtual Patient</strong>
-                    <img alt="CaPO4sim" src="static/images/CaPO4sim.svg" width="60px" height="60px">
-              </h2>
-            <div class="marvel-device iphone8 black">
-    <div class="top-bar"></div>
-    <div class="sleep"></div>
-    <div class="volume"></div>
-    <div class="camera"></div>
-    <div class="sensor"></div>
-    <div class="speaker"></div>
-    <div class="screen">
-        <!-- Content goes here -->
-        <iframe width="100%" src="https://dgranjon.shinyapps.io/virtual_patient_v2/" allowfullscreen="" frameborder="0" height="667px"></iframe>
-    </div>
-    <div class="home"></div>
-    <div class="bottom-bar"></div>
-</div>
-</div>
-          </section>
-          
-          
-          
-          <section> 
-            
-            <div class="wrap aligncenter">
-              <h2>
-                <strong>Toward Native Apps</strong>
-                <img alt="shinyF7" src="static/images/shinyF7.svg" width="60px" height="60px">
-              </h2>
-              
-              <div class="marvel-device iphone8 black">
-    <div class="top-bar"></div>
-    <div class="sleep"></div>
-    <div class="volume"></div>
-    <div class="camera"></div>
-    <div class="sensor"></div>
-    <div class="speaker"></div>
-    <div class="screen">
-        <!-- Content goes here -->
-        <iframe width="100%" src="https://dgranjon.shinyapps.io/miniUI2Demo/" allowfullscreen="" frameborder="0" height="667px"></iframe>
-    </div>
-    <div class="home"></div>
-    <div class="bottom-bar"></div>
-</div>
-            </div>
-            
-          </section>
-          
-          
-          
-          <section> 
-            
-            <div class="wrap aligncenter">
-              <h2><strong>tablerDash</strong>
-                    <img alt="tablerDash" src="static/images/tablerDash.svg" width="60px" height="60px">
-              </h2>
-              
-              <div class="marvel-device macbook">
-    <div class="top-bar"></div>
-    <div class="camera"></div>
-    <div class="screen">
-        <!-- Content goes here -->
-        <iframe width="100%" src="https://dgranjon.shinyapps.io/shinyMons/" allowfullscreen="" frameborder="0" height="600px"></iframe>
-    </div>
-    <div class="bottom-bar"></div>
-</div>
-     </div>       
-          </section>
-          
-          
-          
-          
-          <section>
-            <div class="wrap aligncenter">
-              <h2>Future Plans</h2>
-              <ul class="flexblock steps">
-                <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
-                <li>
-                  <span>
-                    <svg class="fa-info-circle" viewBox="0 0 512 512">
-                          <use xlink:href="#fa-info-circle"></use>
+            <section>
+               <!--.wrap = container (width: 90%) -->
+               <div class="wrap">
+                  <h2 class="aligncenter">About Me</h2>
+                  <div class="grid vertical-align ms">
+                     <div class="column">
+                        <ul class="flexblock activity">
+                           <li>
+                              <a href="#">
+                                 <div>
+                                    <p class="year">
+                                       2011-2013
+                                    </p>
+                                    <p class="title">
+                                       Master’s degree<br>
+                                       Université Claude Bernard Lyon
+                                    </p>
+                                    <p class="summary">
+                                       Mathematics and Computer Sciences
+                                    </p>
+                                 </div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="year">
+                                    2013-2016
+                                 </p>
+                                 <p class="title">
+                                    PhD in Life Sciences<br>
+                                    Université Pierre et Marie Curie and Université de Lausanne
+                                 </p>
+                                 <p class="summary">
+                                    Thesis Title: «Modeling of Calcium and Phosphate Homeostasis in the Rat and its perturbations»
+                                 </p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="year">
+                                    2016-2019
+                                 </p>
+                                 <p class="title">
+                                    PostDoc Researcher<br>
+                                    Université de Lausanne and University of Zurich 
+                                 </p>
+                                 <p class="summary">
+                                    Develop web applications, package HTML templates into reusable R APIs, virtual machines management, design relevant educational content.
+                                 </p>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- .end .column -->
+                     <div class="column">
+                        <img class="alignright size-50" src="static/images/graduate-2.svg" alt="Graduate">
+                     </div>
+                     <!-- .end .column -->
+                  </div>
+               </div>
+            </section>
+            <section>
+               <div class="wrap aligncenter">
+                  <div class="grid vertical-align">
+                     <div class="column">
+                        <figure><img class="size-50 zoomIn" src="static/images/undraw_dashboard_nklg.svg" alt="Dashboard"></figure>
+                        <figure><img class="size-40 zoomIn" src="static/images/cardio-renal.svg" alt="CardioRenal"></figure>
+                     </div>
+                     <div class="column">
+                        <h2>My current position</h2>
+                        <h4>Principal Scientific Consultant at Novartis</h4>
+                        <ul class="flexblock reasons">
+                           <li>
+                              <h2>Scientific Computing and Consulting group</h2>
+                              <p>Develop web applications, package HTML templates into reusable R APIs, virtual machines management, design relevant educational content.</p>
+                           </li>
+                           <li>
+                              This is secret ;)
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- end .grid-->
+               </div>
+               <!-- .end .wrap -->
+            </section>
+            <section>
+               <span class="background" style="background-image:url('static/images/nifty_template_ui.png'); opacity: 0.8; background-size: 100% 100%;"></span>
+               <div class="wrap aligncenter">
+                  <h1><strong>Dashboard examples</strong></h1>
+               </div>
+               <!-- .end .wrap -->
+            </section>
+            <section>
+               <span class="background" style="background-image:url('static/images/undraw_questions_75e0.svg'); opacity: 0.1; background-size: 100% 75%;"></span>
+               <div class="wrap aligncenter">
+                  <h1><strong>How to bridge the gap?</strong></h1>
+               </div>
+               <!-- .end .wrap -->
+            </section>
+            <section>
+               <!--.wrap = container (width: 90%) -->
+               <div class="wrap aligncenter">
+                  <h2>About <strong>RinteRface (https://rinterface.com)</strong></h2>
+                  <br>
+                  <div class="wrap aligncenter">
+                     <p>RinteRface, a comprehensive set of UI APIs</p>
+                     <div class="content-center">
+                        <img src="static/images/rinterfaceMosaic.svg" alt="rinterfaceHex">
+                     </div>
+                  </div>
+                  <!-- .end .content-left -->
+               </div>
+               <!-- .end .wrap -->
+            </section>
+            <section>
+               <div class="wrap aligncenter">
+                  <h2><strong>shinydashboardPlus</strong>
+                     <img alt="shinydashboardPlus" src="static/images/shinydashboardPlus.svg" width="60px" height="60px">
+                  </h2>
+                  <div class="marvel-device macbook">
+                     <div class="top-bar"></div>
+                     <div class="camera"></div>
+                     <div class="screen">
+                        <!-- Content goes here -->
+                        <iframe width="100%" src="https://dgranjon.shinyapps.io/shinydashboardPlusDemo/" allowfullscreen="" frameborder="0" height="600px"></iframe>
+                     </div>
+                     <div class="bottom-bar"></div>
+                  </div>
+               </div>
+            </section>
+            <section>
+               <div class="wrap aligncenter">
+                  <h2><strong>bs4Dash</strong>
+                     <img alt="bs4Dash" src="static/images/bs4Dash.svg" width="60px" height="60px">
+                  </h2>
+                  <div class="marvel-device macbook">
+                     <div class="top-bar"></div>
+                     <div class="camera"></div>
+                     <div class="screen">
+                        <!-- Content goes here -->
+                        <iframe width="100%" src="https://dgranjon.shinyapps.io/bs4DashDemo/" allowfullscreen="" frameborder="0" height="600px"></iframe>
+                     </div>
+                     <div class="bottom-bar"></div>
+                  </div>
+               </div>
+            </section>
+            <section>
+               <div class="wrap aligncenter">
+                  <h2><strong>Virtual Patient</strong>
+                     <img alt="CaPO4sim" src="static/images/CaPO4sim.svg" width="60px" height="60px">
+                  </h2>
+                  <div class="marvel-device iphone8 black">
+                     <div class="top-bar"></div>
+                     <div class="sleep"></div>
+                     <div class="volume"></div>
+                     <div class="camera"></div>
+                     <div class="sensor"></div>
+                     <div class="speaker"></div>
+                     <div class="screen">
+                        <!-- Content goes here -->
+                        <iframe width="100%" src="https://dgranjon.shinyapps.io/virtual_patient_v2/" allowfullscreen="" frameborder="0" height="667px"></iframe>
+                     </div>
+                     <div class="home"></div>
+                     <div class="bottom-bar"></div>
+                  </div>
+               </div>
+            </section>
+            <section>
+               <div class="wrap aligncenter">
+                  <h2>
+                     <strong>Toward Native Apps</strong>
+                     <img alt="shinyF7" src="static/images/shinyF7.svg" width="60px" height="60px">
+                  </h2>
+                  <div class="marvel-device iphone8 black">
+                     <div class="top-bar"></div>
+                     <div class="sleep"></div>
+                     <div class="volume"></div>
+                     <div class="camera"></div>
+                     <div class="sensor"></div>
+                     <div class="speaker"></div>
+                     <div class="screen">
+                        <!-- Content goes here -->
+                        <iframe width="100%" src="https://dgranjon.shinyapps.io/miniUI2Demo/" allowfullscreen="" frameborder="0" height="667px"></iframe>
+                     </div>
+                     <div class="home"></div>
+                     <div class="bottom-bar"></div>
+                  </div>
+               </div>
+            </section>
+            <section>
+               <div class="wrap aligncenter">
+                  <h2><strong>tablerDash</strong>
+                     <img alt="tablerDash" src="static/images/tablerDash.svg" width="60px" height="60px">
+                  </h2>
+                  <div class="marvel-device macbook">
+                     <div class="top-bar"></div>
+                     <div class="camera"></div>
+                     <div class="screen">
+                        <!-- Content goes here -->
+                        <iframe width="100%" src="https://dgranjon.shinyapps.io/shinyMons/" allowfullscreen="" frameborder="0" height="600px"></iframe>
+                     </div>
+                     <div class="bottom-bar"></div>
+                  </div>
+               </div>
+            </section>
+            <section>
+               <div class="wrap aligncenter">
+                  <h2>Future Plans</h2>
+                  <ul class="flexblock steps">
+                     <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
+                     <li>
+                        <span>
+                           <svg class="fa-info-circle" viewBox="0 0 512 512">
+                              <use xlink:href="#fa-info-circle"></use>
+                           </svg>
+                        </span>
+                        <h2>Improve</h2>
+                        <p>documentation, RinteRfaceVerse, more input/output bindings</p>
+                     </li>
+                     <li>
+                        <div class="process step-2"></div>
+                        <span>
+                           <svg class="fa-code" viewBox="0 0 512 512">
+                              <use xlink:href="#fa-code"></use>
+                           </svg>
+                        </span>
+                        <h2>Develop</h2>
+                        <p>new frameworks: shinyF7 (miniUI 2.0), UIKit, ...</p>
+                     </li>
+                     <li>
+                        <div class="process step-3"></div>
+                        <span>
+                           <svg class="fa-volume-up" viewBox="0 0 512 512">
+                              <use xlink:href="#fa-volume-up"></use>
+                           </svg>
+                        </span>
+                        <h2>Communicate</h2>
+                        <p>useR, satRdays, workshops, meetups</p>
+                        <p>Dedicated Youtube channel</p>
+                     </li>
+                     <li>
+                        <div class="process step-4"></div>
+                        <span>
+                           <svg class="fa-users" viewBox="0 0 512 512">
+                              <use xlink:href="#fa-users"></use>
+                           </svg>
+                        </span>
+                        <h2>Collaborate</h2>
+                        <p>Want to help us?</p>
+                     </li>
+                  </ul>
+               </div>
+               <!-- .end .wrap -->
+            </section>
+            <section class="aligncenter">
+               <div class="wrap">
+                  <h2>Thank you!</h2>
+                  <br>
+                  <p>
+                     To stay updated: 
+                     <strong>
+                        @divadnojnarg on 
+                        <svg class="fa-twitter" viewBox="0 0 512 512">
+                           <path d="m481 117c-13 18-28 34-46 47 0 3 0 7 0 12 0 25-3 50-11 74-7 25-18 49-33 71-14 23-32 43-52 61-21 17-45 31-74 41-29 11-60 16-92 16-52 0-99-14-142-42 7 1 14 2 22 2 43 0 81-14 115-40-20 0-38-6-54-18-16-12-27-27-33-46 7 1 13 2 18 2 8 0 16-1 24-4-21-4-39-15-53-31-14-17-21-37-21-59l0-1c13 7 27 11 42 11-13-8-23-19-30-32-8-14-11-29-11-44 0-17 4-33 12-47 23 28 51 51 84 68 33 17 69 27 107 29-2-8-3-15-3-22 0-25 9-47 27-65 18-18 40-27 66-27 26 0 49 10 67 29 21-4 40-11 59-22-7 22-21 39-41 51 18-2 35-7 53-14z"></path>
                         </svg>
-                  </span>
-                  <h2>Improve</h2>
-                  <p>documentation, RinteRfaceVerse, more input/output bindings</p>
-                </li>
-                <li>
-                  <div class="process step-2"></div>
-                  <span>
-                    <svg class="fa-code" viewBox="0 0 512 512">
-                          <use xlink:href="#fa-code"></use>
-                        </svg>
-                  </span>
-                  <h2>Develop</h2>
-                  <p>new frameworks: shinyF7 (miniUI 2.0), UIKit, ...</p>
-                </li>
-                <li>
-                  <div class="process step-3"></div>
-                  <span>
-                    <svg class="fa-volume-up" viewBox="0 0 512 512">
-                          <use xlink:href="#fa-volume-up"></use>
-                        </svg>
-                  </span>
-                  <h2>Communicate</h2>
-                  <p>useR, satRdays, workshops, meetups</p>
-                  <p>Dedicated Youtube channel</p>
-                </li>
-                <li>
-                  <div class="process step-4"></div>
-                  <span>
-                    <svg class="fa-users" viewBox="0 0 512 512">
-                          <use xlink:href="#fa-users"></use>
-                        </svg>
-                  </span>
-                  <h2>Collaborate</h2>
-                  <p>Want to help us?</p>
-                </li>
-              </ul>
-            </div>
-            <!-- .end .wrap -->
-          </section>
-        
-
-          <section class="aligncenter">
-            <div class="wrap">
-              <h2>Thank you!</h2><br>
-              
-              <p>To stay updated: <strong>@divadnojnarg on <svg class="fa-twitter" viewBox="0 0 512 512">
-                
-              
-      <path d="m481 117c-13 18-28 34-46 47 0 3 0 7 0 12 0 25-3 50-11 74-7 25-18 49-33 71-14 23-32 43-52 61-21 17-45 31-74 41-29 11-60 16-92 16-52 0-99-14-142-42 7 1 14 2 22 2 43 0 81-14 115-40-20 0-38-6-54-18-16-12-27-27-33-46 7 1 13 2 18 2 8 0 16-1 24-4-21-4-39-15-53-31-14-17-21-37-21-59l0-1c13 7 27 11 42 11-13-8-23-19-30-32-8-14-11-29-11-44 0-17 4-33 12-47 23 28 51 51 84 68 33 17 69 27 107 29-2-8-3-15-3-22 0-25 9-47 27-65 18-18 40-27 66-27 26 0 49 10 67 29 21-4 40-11 59-22-7 22-21 39-41 51 18-2 35-7 53-14z"></path>
-    </svg></strong></p>
-              <hr>
-              <p>https://github.com/DivadNojnarg/</p>
-              <p>https://rinterface.com</p>
-            </div>
-            <!-- .end .wrap -->
-          </section>
-          
-
-
-
-            </article>
-            <!-- end article -->
-          </main>
-          <!-- end main -->
-
-          <!-- A global footer
-
-          <footer role="contentinfo">
-          <div class="wrap">
-          <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
-        </div>
-      </footer>  -->
-
+                     </strong>
+                  </p>
+                  <hr>
+                  <p>https://github.com/DivadNojnarg/</p>
+                  <p>https://rinterface.com</p>
+               </div>
+               <!-- .end .wrap -->
+            </section>
+         </article>
+         <!-- end article -->
+      </main>
+      <!-- end main -->
+      <!-- A global footer
+         <footer role="contentinfo">
+         <div class="wrap">
+         <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+         </div>
+         </footer>  -->
       <!-- Required -->
       <script src="static/js/webslides.js"></script>
       <script>
-      window.ws = new WebSlides();
+         window.ws = new WebSlides();
       </script>
-
       <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
       <script defer src="static/js/svg-icons.js"></script>
-
-    </body>
-    </html>
+   </body>
+</html>
